@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/banarsidas-chandiwala-institute-of-physiotherapy-kalkaji-delhi-13682",
-  "https://www.shiksha.com/college/barasat-government-medical-college-and-hospital-kolkata-207487",
-  "https://www.shiksha.com/college/government-medical-college-churu-62909",
-  "https://www.shiksha.com/college/sdnb-vaishnav-college-for-women-chrompet-chennai-64419",
-  "https://www.shiksha.com/college/government-ayurveda-medical-college-and-hospital-mysore-68209",
-  "https://www.shiksha.com/college/andaman-and-nicobar-islands-institute-of-medical-sciences-andaman-nicobar-islands-62669",
-  "https://www.shiksha.com/college/mount-zion-medical-college-pathanamthitta-66223",
-  "https://www.shiksha.com/college/chikkaballapura-institute-of-medical-sciences-chikballpura-180925",
-  "https://www.shiksha.com/provider/emversity-online-238882",
-  "https://www.shiksha.com/college/government-sivagangai-medical-college-and-hospital-tamil-nadu-other-62939",
-  "https://www.shiksha.com/college/st-johns-college-of-pharmacy-vijayanagar-bangalore-67741",
-  "https://www.shiksha.com/college/college-of-veterinary-science-rajendranagar-p-v-narsimha-rao-telangana-veterinary-university-warangal-66171",
-  "https://www.shiksha.com/college/government-ayurvedic-medical-college-jammu-87505",
-  "https://www.shiksha.com/college/bm-college-of-pharmaceutical-education-and-research-indore-88085",
-  "https://www.shiksha.com/college/amrutvahini-college-of-pharmacy-ahmednagar-88203",
-  "https://www.shiksha.com/college/diamond-harbour-government-medical-college-district-24-parganas-65271",
-  "https://www.shiksha.com/college/luxmi-bai-institute-of-dental-sciences-and-hospital-patiala-70523",
-  "https://www.shiksha.com/college/s-c-d-government-college-ludhiana-105215",
-  "https://www.shiksha.com/university/jntua-jawaharlal-nehru-technological-university-anantapur-51545",
-  "https://www.shiksha.com/college/royal-college-of-pharmacy-and-health-sciences-brahmapur-67441",
+  "https://www.shiksha.com/college/sri-balaji-college-of-pharmacy-jaipur-52628",
+  "https://www.shiksha.com/college/government-ayurveda-college-tripunithura-ernakulum-86959",
+  "https://www.shiksha.com/college/college-of-pharmaceutical-sciences-berhampur-87925",
+  "https://www.shiksha.com/college/government-medical-college-and-district-general-hospital-ratnagiri-213187",
+  "https://www.shiksha.com/college/swami-keshvanand-institute-of-pharmacy-jaipur-51903",
+  "https://www.shiksha.com/college/government-postgraduate-college-ambala-cantt-71797",
+  "https://www.shiksha.com/college/sarojini-college-of-pharmacy-kolhapur-88513",
+  "https://www.shiksha.com/college/vidya-niketan-college-of-pharmacy-pune-147535",
+  "https://www.shiksha.com/college/the-madras-medical-mission-chennai-193901",
+  "https://www.shiksha.com/college/laxmi-college-of-optometry-navi-mumbai-mumbai-56233",
+  "https://www.shiksha.com/college/gokul-physiotherapy-college-patan-58599",
+  "https://www.shiksha.com/university/dr-ntr-university-of-health-sciences-vijayawada-58739",
+  "https://www.shiksha.com/college/g-pulla-reddy-dental-college-and-hospital-kurnool-67647",
+  "https://www.shiksha.com/college/anuradha-college-of-pharmacy-chikhali-buldana-179639",
+  "https://www.shiksha.com/college/centre-for-online-education-ignou-delhi-other-202959",
+  "https://www.shiksha.com/college/bhaisaheb-sawant-ayurved-mhavidyalaya-maharashtra-other-68063",
+  "https://www.shiksha.com/college/hindu-college-of-pharmacy-sonepat-87949",
+  "https://www.shiksha.com/college/centurion-university-of-technology-and-management-rayagada-campus-91649",
+  "https://www.shiksha.com/college/government-polytechnic-college-adampur-hisar-96899",
+  "https://www.shiksha.com/college/deben-mahata-government-medical-college-and-hospital-purulia-180815",
 ]
 
 
@@ -9248,7 +9248,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1181
+    c_count = 1501
 
     try:
         for base_url in BASE_URL:
