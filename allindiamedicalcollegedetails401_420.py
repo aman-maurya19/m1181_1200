@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sri-balaji-college-of-pharmacy-jaipur-52628",
-  "https://www.shiksha.com/college/government-ayurveda-college-tripunithura-ernakulum-86959",
-  "https://www.shiksha.com/college/college-of-pharmaceutical-sciences-berhampur-87925",
-  "https://www.shiksha.com/college/government-medical-college-and-district-general-hospital-ratnagiri-213187",
-  "https://www.shiksha.com/college/swami-keshvanand-institute-of-pharmacy-jaipur-51903",
-  "https://www.shiksha.com/college/government-postgraduate-college-ambala-cantt-71797",
-  "https://www.shiksha.com/college/sarojini-college-of-pharmacy-kolhapur-88513",
-  "https://www.shiksha.com/college/vidya-niketan-college-of-pharmacy-pune-147535",
-  "https://www.shiksha.com/college/the-madras-medical-mission-chennai-193901",
-  "https://www.shiksha.com/college/laxmi-college-of-optometry-navi-mumbai-mumbai-56233",
-  "https://www.shiksha.com/college/gokul-physiotherapy-college-patan-58599",
-  "https://www.shiksha.com/university/dr-ntr-university-of-health-sciences-vijayawada-58739",
-  "https://www.shiksha.com/college/g-pulla-reddy-dental-college-and-hospital-kurnool-67647",
-  "https://www.shiksha.com/college/anuradha-college-of-pharmacy-chikhali-buldana-179639",
-  "https://www.shiksha.com/college/centre-for-online-education-ignou-delhi-other-202959",
-  "https://www.shiksha.com/college/bhaisaheb-sawant-ayurved-mhavidyalaya-maharashtra-other-68063",
-  "https://www.shiksha.com/college/hindu-college-of-pharmacy-sonepat-87949",
-  "https://www.shiksha.com/college/centurion-university-of-technology-and-management-rayagada-campus-91649",
-  "https://www.shiksha.com/college/government-polytechnic-college-adampur-hisar-96899",
-  "https://www.shiksha.com/college/deben-mahata-government-medical-college-and-hospital-purulia-180815",
+  "https://www.shiksha.com/college/guru-mishri-homo-medical-college-and-hospital-jalna-192617",
+  "https://www.shiksha.com/college/state-homoeopathic-medical-college-and-hospital-gorakhpur-208859",
+  "https://www.shiksha.com/college/s-d-college-of-pharmacy-and-vocational-studies-muzaffarnagar-59765",
+  "https://www.shiksha.com/college/saheed-laxman-nayak-medical-college-and-hospital-orissa-other-63121",
+  "https://www.shiksha.com/college/gulabrao-patil-homoeopathic-medical-college-sangli-70095",
+  "https://www.shiksha.com/college/homoeopathic-medical-college-and-hospital-chandigarh-87157",
+  "https://www.shiksha.com/college/government-homoeopathic-medical-college-and-hospital-tirumangalam-tamil-nadu-other-87347",
+  "https://www.shiksha.com/college/gondia-college-of-pharmacy-maharashtra-other-147725",
+  "https://www.shiksha.com/college/biyani-girls-college-jaipur-52180",
+  "https://www.shiksha.com/college/dr-bhubaneswar-borooah-cancer-institute-guwahati-69793",
+  "https://www.shiksha.com/college/mahaveer-college-of-ayurvedic-science-chhattisgarh-other-87493",
+  "https://www.shiksha.com/college/gmers-medical-college-panchmahal-godhra-210103",
+  "https://www.shiksha.com/college/nri-institute-of-technology-agiripalli-krishna-60861",
+  "https://www.shiksha.com/college/kamala-nehru-memorial-hospital-school-of-general-nursing-and-midwifery-allahabad-199835",
+  "https://www.shiksha.com/college/college-of-physiotherapy-and-medical-sciences-assam-other-202085",
+  "https://www.shiksha.com/college/international-institute-of-technology-and-management-sonepat-32556",
+  "https://www.shiksha.com/college/brilliant-grammar-school-educational-society-s-group-of-institutions-rangareddy-hyderabad-63711",
+  "https://www.shiksha.com/college/navodaya-dental-college-and-hospital-raichur-67863",
+  "https://www.shiksha.com/college/truba-institute-of-pharmacy-bhopal-88047",
+  "https://www.shiksha.com/college/nityananda-college-of-pharmacy-balasore-147965",
 ]
 
 
@@ -9248,7 +9248,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1501
+    c_count = 1701
 
     try:
         for base_url in BASE_URL:
