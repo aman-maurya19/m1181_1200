@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/guru-mishri-homo-medical-college-and-hospital-jalna-192617",
-  "https://www.shiksha.com/college/state-homoeopathic-medical-college-and-hospital-gorakhpur-208859",
-  "https://www.shiksha.com/college/s-d-college-of-pharmacy-and-vocational-studies-muzaffarnagar-59765",
-  "https://www.shiksha.com/college/saheed-laxman-nayak-medical-college-and-hospital-orissa-other-63121",
-  "https://www.shiksha.com/college/gulabrao-patil-homoeopathic-medical-college-sangli-70095",
-  "https://www.shiksha.com/college/homoeopathic-medical-college-and-hospital-chandigarh-87157",
-  "https://www.shiksha.com/college/government-homoeopathic-medical-college-and-hospital-tirumangalam-tamil-nadu-other-87347",
-  "https://www.shiksha.com/college/gondia-college-of-pharmacy-maharashtra-other-147725",
-  "https://www.shiksha.com/college/biyani-girls-college-jaipur-52180",
-  "https://www.shiksha.com/college/dr-bhubaneswar-borooah-cancer-institute-guwahati-69793",
-  "https://www.shiksha.com/college/mahaveer-college-of-ayurvedic-science-chhattisgarh-other-87493",
-  "https://www.shiksha.com/college/gmers-medical-college-panchmahal-godhra-210103",
-  "https://www.shiksha.com/college/nri-institute-of-technology-agiripalli-krishna-60861",
-  "https://www.shiksha.com/college/kamala-nehru-memorial-hospital-school-of-general-nursing-and-midwifery-allahabad-199835",
-  "https://www.shiksha.com/college/college-of-physiotherapy-and-medical-sciences-assam-other-202085",
-  "https://www.shiksha.com/college/international-institute-of-technology-and-management-sonepat-32556",
-  "https://www.shiksha.com/college/brilliant-grammar-school-educational-society-s-group-of-institutions-rangareddy-hyderabad-63711",
-  "https://www.shiksha.com/college/navodaya-dental-college-and-hospital-raichur-67863",
-  "https://www.shiksha.com/college/truba-institute-of-pharmacy-bhopal-88047",
-  "https://www.shiksha.com/college/nityananda-college-of-pharmacy-balasore-147965",
+  "https://www.shiksha.com/college/parul-university-rajkot-campus-214467",
+  "https://www.shiksha.com/college/virohan-sigma-university-vadodara-238508",
+  "https://www.shiksha.com/college/arya-post-graduate-college-panipat-70739",
+  "https://www.shiksha.com/college/amrutha-ayurveda-medical-college-and-hospital-chitradurga-87425",
+  "https://www.shiksha.com/college/gitam-school-of-science-bengaluru-doddaballapur-rd-bangalore-145491",
+  "https://www.shiksha.com/college/deshraj-college-of-pharmacy-rohtak-149709",
+  "https://www.shiksha.com/college/pacific-college-of-physiotherapy-gorakhpur-182917",
+  "https://www.shiksha.com/college/s-b-g-ayurvedic-medical-college-and-hospital-karnataka-other-186467",
+  "https://www.shiksha.com/college/sai-business-school-sai-group-of-institutions-dehradun-53548",
+  "https://www.shiksha.com/college/pankaja-kasthuri-ayurveda-college-thiruvananthapuram-66109",
+  "https://www.shiksha.com/college/utkalmani-homoeopathic-medical-college-and-hospital-rourkela-87317",
+  "https://www.shiksha.com/college/white-memorial-homoeo-medical-college-kanyakumari-87359",
+  "https://www.shiksha.com/college/shri-sambhaji-college-of-pharmacy-nanded-150681",
+  "https://www.shiksha.com/college/jhargram-government-medical-college-213221",
+  "https://www.shiksha.com/university/azim-premji-university-bhopal-213951",
+  "https://www.shiksha.com/university/chandigarh-university-up-campus-lucknow-229904",
+  "https://www.shiksha.com/college/national-institute-of-management-studies-bangalore-kengeri-2945",
+  "https://www.shiksha.com/college/st-johns-college-of-pharmaceutical-sciences-kurnool-61027",
+  "https://www.shiksha.com/college/zoram-medical-college-mizoram-other-64077",
+  "https://www.shiksha.com/college/national-homeopathy-research-institute-in-mental-health-kottayam-87515",
 ]
 
 
@@ -9248,7 +9248,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1701
+    c_count = 1901
 
     try:
         for base_url in BASE_URL:
