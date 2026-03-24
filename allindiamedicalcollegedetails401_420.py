@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/parul-university-rajkot-campus-214467",
-  "https://www.shiksha.com/college/virohan-sigma-university-vadodara-238508",
-  "https://www.shiksha.com/college/arya-post-graduate-college-panipat-70739",
-  "https://www.shiksha.com/college/amrutha-ayurveda-medical-college-and-hospital-chitradurga-87425",
-  "https://www.shiksha.com/college/gitam-school-of-science-bengaluru-doddaballapur-rd-bangalore-145491",
-  "https://www.shiksha.com/college/deshraj-college-of-pharmacy-rohtak-149709",
-  "https://www.shiksha.com/college/pacific-college-of-physiotherapy-gorakhpur-182917",
-  "https://www.shiksha.com/college/s-b-g-ayurvedic-medical-college-and-hospital-karnataka-other-186467",
-  "https://www.shiksha.com/college/sai-business-school-sai-group-of-institutions-dehradun-53548",
-  "https://www.shiksha.com/college/pankaja-kasthuri-ayurveda-college-thiruvananthapuram-66109",
-  "https://www.shiksha.com/college/utkalmani-homoeopathic-medical-college-and-hospital-rourkela-87317",
-  "https://www.shiksha.com/college/white-memorial-homoeo-medical-college-kanyakumari-87359",
-  "https://www.shiksha.com/college/shri-sambhaji-college-of-pharmacy-nanded-150681",
-  "https://www.shiksha.com/college/jhargram-government-medical-college-213221",
-  "https://www.shiksha.com/university/azim-premji-university-bhopal-213951",
-  "https://www.shiksha.com/university/chandigarh-university-up-campus-lucknow-229904",
-  "https://www.shiksha.com/college/national-institute-of-management-studies-bangalore-kengeri-2945",
-  "https://www.shiksha.com/college/st-johns-college-of-pharmaceutical-sciences-kurnool-61027",
-  "https://www.shiksha.com/college/zoram-medical-college-mizoram-other-64077",
-  "https://www.shiksha.com/college/national-homeopathy-research-institute-in-mental-health-kottayam-87515",
+  "https://www.shiksha.com/college/global-institute-of-pharmaceutical-education-and-research-kashipur-87815",
+  "https://www.shiksha.com/college/prof-ravindra-nikam-college-of-pharmacy-dhule-88953",
+  "https://www.shiksha.com/college/government-polytechnic-college-rohru-shimla-98639",
+  "https://www.shiksha.com/college/lokmangal-college-of-pharmacy-solapur-147545",
+  "https://www.shiksha.com/college/malabar-cancer-centre-college-kannur-194721",
+  "https://www.shiksha.com/college/swami-vivekanand-para-medical-college-jamui-194827",
+  "https://www.shiksha.com/college/mannam-ayurveda-co-operative-medical-college-kerala-other-66035",
+  "https://www.shiksha.com/college/sri-k-v-college-of-pharmacy-chikballpura-67759",
+  "https://www.shiksha.com/college/government-medical-college-udhampur-213343",
+  "https://www.shiksha.com/college/mar-dioscorus-college-of-pharmacy-thiruvananthapuram-60797",
+  "https://www.shiksha.com/college/arya-adrash-girls-college-panipat-70737",
+  "https://www.shiksha.com/college/eva-college-of-ayurved-rajkot-87403",
+  "https://www.shiksha.com/college/shree-shamalaji-homoeopathic-medical-college-hospital-and-r-i-godhra-87547",
+  "https://www.shiksha.com/college/sree-ramkrishna-silpa-vidyapith-college-birbhum-100473",
+  "https://www.shiksha.com/college/saifee-hospital-mumbai-105879",
+  "https://www.shiksha.com/college/k-b-h-s-s-trust-s-institute-of-pharmacy-nashik-147873",
+  "https://www.shiksha.com/college/shree-satya-college-of-higher-education-moradabad-149369",
+  "https://www.shiksha.com/college/rajeev-institute-of-ayuvedic-medical-science-and-research-centre-hassan-186451",
+  "https://www.shiksha.com/college/a-s-n-pharmacy-college-tenali-60321",
+  "https://www.shiksha.com/college/college-of-pharmacy-kannur-medical-college-61139",
 ]
 
 
@@ -9251,7 +9251,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1901
+    c_count = 2181
 
     try:
         for base_url in BASE_URL:
