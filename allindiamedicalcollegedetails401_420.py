@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/global-institute-of-pharmaceutical-education-and-research-kashipur-87815",
-  "https://www.shiksha.com/college/prof-ravindra-nikam-college-of-pharmacy-dhule-88953",
-  "https://www.shiksha.com/college/government-polytechnic-college-rohru-shimla-98639",
-  "https://www.shiksha.com/college/lokmangal-college-of-pharmacy-solapur-147545",
-  "https://www.shiksha.com/college/malabar-cancer-centre-college-kannur-194721",
-  "https://www.shiksha.com/college/swami-vivekanand-para-medical-college-jamui-194827",
-  "https://www.shiksha.com/college/mannam-ayurveda-co-operative-medical-college-kerala-other-66035",
-  "https://www.shiksha.com/college/sri-k-v-college-of-pharmacy-chikballpura-67759",
-  "https://www.shiksha.com/college/government-medical-college-udhampur-213343",
-  "https://www.shiksha.com/college/mar-dioscorus-college-of-pharmacy-thiruvananthapuram-60797",
-  "https://www.shiksha.com/college/arya-adrash-girls-college-panipat-70737",
-  "https://www.shiksha.com/college/eva-college-of-ayurved-rajkot-87403",
-  "https://www.shiksha.com/college/shree-shamalaji-homoeopathic-medical-college-hospital-and-r-i-godhra-87547",
-  "https://www.shiksha.com/college/sree-ramkrishna-silpa-vidyapith-college-birbhum-100473",
-  "https://www.shiksha.com/college/saifee-hospital-mumbai-105879",
-  "https://www.shiksha.com/college/k-b-h-s-s-trust-s-institute-of-pharmacy-nashik-147873",
-  "https://www.shiksha.com/college/shree-satya-college-of-higher-education-moradabad-149369",
-  "https://www.shiksha.com/college/rajeev-institute-of-ayuvedic-medical-science-and-research-centre-hassan-186451",
-  "https://www.shiksha.com/college/a-s-n-pharmacy-college-tenali-60321",
-  "https://www.shiksha.com/college/college-of-pharmacy-kannur-medical-college-61139",
+  "https://www.shiksha.com/college/yogeshwar-college-of-pharmacy-barwani-230070",
+  "https://www.shiksha.com/college/emversity-school-of-hospitality-srinagar-237030",
+  "https://www.shiksha.com/college/chanchalben-mafatlal-patel-college-of-physiotherapy-gandhinagar-238392",
+  "https://www.shiksha.com/college/chandana-college-of-physiotherapy-suryapet-194025",
+  "https://www.shiksha.com/college/pragathi-college-of-physiotherapy-nizamabad-194333",
+  "https://www.shiksha.com/college/institute-for-communicative-and-cognitive-neurosciences-palakkad-194729",
+  "https://www.shiksha.com/college/district-hospital-tumkur-199473",
+  "https://www.shiksha.com/college/tagore-institute-of-pharmacy-research-bilaspur-212613",
+  "https://www.shiksha.com/college/monark-goswami-college-of-pharmacy-ahmedabad-231448",
+  "https://www.shiksha.com/college/s-r-patil-medical-college-hospital-research-centre-bagalkot-232930",
+  "https://www.shiksha.com/college/isbr-powered-by-emversity-electronic-city-bangalore-236022",
+  "https://www.shiksha.com/college/care-chl-hospital-indore-243788",
+  "https://www.shiksha.com/college/marwadi-education-foundation-s-group-of-institutions-mefgi-rajkot-37142",
+  "https://www.shiksha.com/college/st-joseph-s-degree-college-for-women-kurnool-68889",
+  "https://www.shiksha.com/college/sri-shivani-college-of-pharmacy-warangal-88141",
+  "https://www.shiksha.com/college/jalna-education-society-s-institute-of-pharmacy-maharashtra-other-89141",
+  "https://www.shiksha.com/college/gopala-gowda-shantaveri-memorial-college-of-nursing-mysore-89905",
+  "https://www.shiksha.com/college/sai-hospital-and-institute-of-pharmacy-uttar-pradesh-other-148617",
+  "https://www.shiksha.com/college/dhanvantari-ayurved-college-koydam-gujarat-other-87399",
+  "https://www.shiksha.com/college/dr-ys-khedkar-college-of-pharmacy-aurangabad-88795",
 ]
 
 
@@ -9251,7 +9251,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2181
+    c_count = 2881
 
     try:
         for base_url in BASE_URL:
