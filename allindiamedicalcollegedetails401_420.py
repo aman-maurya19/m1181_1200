@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/yogeshwar-college-of-pharmacy-barwani-230070",
-  "https://www.shiksha.com/college/emversity-school-of-hospitality-srinagar-237030",
-  "https://www.shiksha.com/college/chanchalben-mafatlal-patel-college-of-physiotherapy-gandhinagar-238392",
-  "https://www.shiksha.com/college/chandana-college-of-physiotherapy-suryapet-194025",
-  "https://www.shiksha.com/college/pragathi-college-of-physiotherapy-nizamabad-194333",
-  "https://www.shiksha.com/college/institute-for-communicative-and-cognitive-neurosciences-palakkad-194729",
-  "https://www.shiksha.com/college/district-hospital-tumkur-199473",
-  "https://www.shiksha.com/college/tagore-institute-of-pharmacy-research-bilaspur-212613",
-  "https://www.shiksha.com/college/monark-goswami-college-of-pharmacy-ahmedabad-231448",
-  "https://www.shiksha.com/college/s-r-patil-medical-college-hospital-research-centre-bagalkot-232930",
-  "https://www.shiksha.com/college/isbr-powered-by-emversity-electronic-city-bangalore-236022",
-  "https://www.shiksha.com/college/care-chl-hospital-indore-243788",
-  "https://www.shiksha.com/college/marwadi-education-foundation-s-group-of-institutions-mefgi-rajkot-37142",
-  "https://www.shiksha.com/college/st-joseph-s-degree-college-for-women-kurnool-68889",
-  "https://www.shiksha.com/college/sri-shivani-college-of-pharmacy-warangal-88141",
-  "https://www.shiksha.com/college/jalna-education-society-s-institute-of-pharmacy-maharashtra-other-89141",
-  "https://www.shiksha.com/college/gopala-gowda-shantaveri-memorial-college-of-nursing-mysore-89905",
-  "https://www.shiksha.com/college/sai-hospital-and-institute-of-pharmacy-uttar-pradesh-other-148617",
-  "https://www.shiksha.com/college/dhanvantari-ayurved-college-koydam-gujarat-other-87399",
-  "https://www.shiksha.com/college/dr-ys-khedkar-college-of-pharmacy-aurangabad-88795",
+  "https://www.shiksha.com/college/government-polytechnic-college-chandrasekharpur-khurda-98179",
+  "https://www.shiksha.com/college/rao-adal-singh-college-of-pharmacy-mewat-99919",
+  "https://www.shiksha.com/college/holy-spirit-hospital-mumbai-105967",
+  "https://www.shiksha.com/college/ansh-college-of-pharmacy-gwalior-147477",
+  "https://www.shiksha.com/college/satyam-polytechnic-and-pharmacy-college-amritsar-148125",
+  "https://www.shiksha.com/college/khairthal-pharmacy-college-alwar-148197",
+  "https://www.shiksha.com/college/shri-siddhi-vinayak-college-of-pharmacy-agra-181579",
+  "https://www.shiksha.com/college/usha-college-of-pharmacy-and-medical-sciences-uttar-pradesh-other-181603",
+  "https://www.shiksha.com/college/krishna-sudama-college-of-pharmacy-ghazipur-181789",
+  "https://www.shiksha.com/college/sultanpur-institute-of-pharmacy-uttar-pradesh-other-182041",
+  "https://www.shiksha.com/college/rosy-royal-college-of-allied-health-sciences-bangalore-186193",
+  "https://www.shiksha.com/college/international-institute-of-rehabilitation-sciences-and-research-khordha-195733",
+  "https://www.shiksha.com/college/abhishek-nursing-and-paramedical-institute-uttar-pradesh-other-200101",
+  "https://www.shiksha.com/college/tit-technocrats-group-bhopal-245618",
+  "https://www.shiksha.com/college/j-k-institute-of-pharmacy-management-bulandshahr-60069",
+  "https://www.shiksha.com/college/bapatla-college-of-pharmacy-andhra-pradesh-other-61201",
+  "https://www.shiksha.com/college/trc-mahavidyalaya-department-of-pharmacy-barabanki-65391",
+  "https://www.shiksha.com/college/vishveshwarya-college-of-pharmacy-uttar-pradesh-other-65439",
+  "https://www.shiksha.com/college/shri-rameshwar-college-of-pharmacy-hapur-65675",
+  "https://www.shiksha.com/college/ranchi-institute-of-neuro-psychiatry-and-allied-sciences-67795",
 ]
 
 
@@ -9251,7 +9251,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2881
+    c_count = 3141
 
     try:
         for base_url in BASE_URL:
